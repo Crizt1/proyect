@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 0;
+}
+header{
+    height: 65vh;
+    background-color: #313030;
+}
+.head{
+    text-align: center;
+    padding: 10000;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+}
+
+.spread{
+    transform: translate(0);
+}
+.menu-navegacion a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    margin-right: 10px;
+    margin-top: 0vh;
+    margin-bottom: 15px;
+
+}
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 25px ;
+}
+
+
+/* nuestro servicio */
+
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #080808;
+    margin-bottom: 40px;
+    font-size: 40px;
+
+}
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.contenedor-servicio img{
+    width: 45%;
+}
+.checklist-servicio{
+    width: 45%;
+}
+.service{
+    margin-bottom: 20px;
+
+}
+.n-service{
+    margin-bottom: 7px;
+    color: #9b8bbb;
+}
+.number{
+    display: inline-block;
+    background-image: linear-gradient(to top, #b67676 0%, #634b5c 100%);
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+}
+.gallery{
+    background: #f2f2f2;
+}
+.contenedor-galeria{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagenes-galeria{
+    object-fit: cover;
+    width: 30%;
+    height: 100%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5) ;
+    cursor: pointer;
+    margin-inline-start: auto;
+}
+
+
+.experts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cont-expert{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cont-expert img{
+    width: 80% ;
+    display: block;
+    margin: 0 auto;
+
+}
+.n-expert{
+    display: inline-block ;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+}
+footer{
+    background: #313030;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+}
+.contact-us{
+    width: 40%;
+    color: #fff;
+}
+
+.brand{
+    font-weight: 50000;
+    font-size: 40px;
+    margin-left: 42px;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+.materializa{
+    margin-left:42px ;
+}
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 73px;
+
+}
+
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.social-media-icon:hover{
+    background: #fff;
+    color: #764ba2;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 70px;
+}
+
+.Logo1{
+    height: 100px;
+    position: absolute;top:100px; left:50px ;
+    width: 100px;
+}
+
+.caja-logo{
+    width: 50px;
+    height: 40px;
+    /* background-color: #764ba2; */
+}
+

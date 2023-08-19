@@ -1,244 +1,147 @@
-<!DOCTYPE html>
-<html>
-	<head>
-	<title> Titulo </title>
+  <!doctype html>
 
-	</head>
-
-	
-	<style >
-		
-		body{
-			background-image: url("./imgs/In.jpg");
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: 700px;
-			background-attachment: fixed;
-			background-color: #FCF8F5;
-
-		}
-
-		header{
-
-			background-color: whitesmoke;
+  <html lang='en'>
 
 
-		}
-
-	</style>
-	<style >
-
-		form{
-			float: right;
-			position: absolute;top:60px; right:50px ;
-            padding: 10px 15px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-            border-radius: 20px;
-            text-align: center;
-            background-color: #ECE8E6;
-            width: 340px;
+  <head>
+  <meta charset='utf-8'>
+  <!-- Boxicons CSS -->
+  <title>TE LO TRAIGO</title>
+  <link rel="stylesheet" href="estil.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel = "preconnect" href = "https://fonts.gstatic.com">
+  <link href = "https://fonts.googleapis.com/css2? family = Open + Sans: wght @ 300; 400; 700 & display = swap "rel =" hoja de estilo ">
+  </head>
 
 
 
-        }
+  <body>
+    <header class="header" id="inicio">
+      
+      
 
-        .input-group{
-                display: flex;
-                flex-direction: column;
-                text-align: left;
-        }
+      <nav class="menu-navegacion  ">
+      <a href="#inicio">HOME</a>
+      <a href="#servicios">NOSOTROS  </a>
+      <a href="#servicios">ARTICULOS</a>
 
-        h2{
-            color: #283629;
-            font-size: 22px;
-        }
+      <a href="#Portafolio">NUEVOS PRODUCTOS</a>
+      <a href="#expertos">SEGURIDAD</a>
+      <a href="#contacto">CONTACTO</a>
+      </nav>
+          
 
-        label{
-            color: #283629;
-            font-size: 15px;
-            font-weight: 600;
-            margin-bottom: 15px;
-        }
+      <div class="contenedor head">
+        <h1 class="titulo"> UNA NUEVA FORMA DE VESTIR </h1>
 
-        input, textarea{
-            padding: 17px 25px;
-            border-radius: 25px;
-            margin-bottom: 20px;
-            background-color: #EDFFF0;
-            border: 2px solid #F0FAF1;
-            color: #283629;
-            outline: none;
-        }
-
-        input::placeholder, textarea::placeholder{
-            color: #b5cab6;
-
-        }
-
-        .form-txt{
-            margin-bottom: 30px;
-            display: flex;
-            justify-content: space-between;
-            text-align: center;
-
-        }
-
-        .form-txt a{
-            color: #78b28e;
-            font-size: 14px;
-            font-weight: 600;
-            text-decoration: none;
-        }
-
-        .button{
-            font-size: 16px;
-            color: #FFFFFF;
-            border: 0;
-            border-radius: 25px;
-            background-color: black;
-            box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
-            cursor: pointer;
-        }
-
-        .button:hover{
-            background-color: #50E04B;
-        }
-        .btn-a{
-			display: inline-block;
-			margin: 25px 0px;
-			background-color: #E0DFBF;
-			padding: 25px 45px;
-			color: whitesmoke;
-			text-decoration: none;
-			font-size: 15px;
-
-
-		}
-		form1{
-			text-align: center;
-			position: absolute;top:605px; left:100px ;
-			font-family: fantasy;
-		}
-
-		form2{
-			text-align: center;
-			position: absolute;top:605px; right:630px ;
-			font-family: fantasy;
-		}
-		form3{
-			text-align: center;
-			position: absolute;top:605px; right:100px ;
-			font-family: fantasy;
-		}
-		footer{
-
-			background-color: whitesmoke;
-			padding: 80px 65px;
-			}
-
-		.img1{
-			width: 50px; 
-			height: 40px; 
-			border:1px solid gray;
-
-		}
-		.img2{
-			width: 50px; 
-			height: 40px; 
-			border:1px solid gray;
-			position: absolute;top: 674px; right:670px ;
-
-		}
-
-		.img3{
-
-			width: 50px; 
-			height: 40px; 
-			border:1px solid gray;
-			position: absolute;top: 674px; right:150px ;
-
-		}
-		form4{
-			text-align: center;
-			position: absolute;top:668px;left: 150px ;
-			font-family: fantasy;
-		}
-
-		form5{
-			text-align: left;
-			position: absolute;top:668px; right:370px ;
-			font-family: fantasy;
-		}
-		form6{
-			text-align: center;
-			position: absolute;top:668px; right:10px ;
-			font-family: fantasy;
-		}
-
-	</style>
-
-	
-	<body>
-		<header>
-			<h1 align="center" style="color: black;">  GRUPO 1 CLOTHING  </h1>
-		</header>
-
-
-	<h1> NOMBRE DE LA TIENDA	</h1>
-
-	<h2> ESLOGAN DE LA TIENDA</h2>
-	
-	<img src= "./imgs/Cha.jpg" width="320" height="240" style= border:1px solid gray> 
-	<p >  Chaqueta Ropevientos Gris $89.900 COP </p> 
-	<a class="btn-a" href="Home.html"> Get Started </a>
-
-	    <form>
-        <h2> ¿Quieres que te contactemos? </h2>
-
-        <div class="input-group">
-            
-            <label for="name">Nombre</label>
-            <input type="text" name="name" id="name", placeholder="Nombre">
-
-            <label for="Tel">Celular</label>
-            <input type="tel" name="Tel" id="Tel" placeholder="Telefono">
-
-            <label for="email">Correo</label>
-            <input type="email" name="email" id="email" placeholder="Correo">
-            <div class="form-txt">
-                <a href="#">Politicas de uso</a>
-                <a href="#">Terminos y condiciones</a>
-            </div>
-            <input class="button" type="submit" value="Enviar">
+        <div class="caja-logo" id="logo">
+                      
+          <img class="Logo1" src="In.jpg">
+                      
         </div>
-    </form>
-<footer>
-    <form1>
-    <p >CALIDAD</p>
-	</form1>
-	<form2>
-    <p>ECONOMIA</p>
-	</form2>
-	<form3>
-    <p >RAPIDEZ</p>
-	</form3>
-	</body>
-	<div>
-		<img src="./imgs/omi.jpg" class="img1">
-	</div>
-	
-	<img src="./imgs/emo.jpg" class="img2">
-	<img src="./imgs/ema.jpg" class="img3">
-	<form4>
-    <p >"No puedo comprar mas"</p>
-	</form4>
-	 <form5>
-    <p >"La ropa mas chimba que me he comprado"</p>
-	</form5>
-	<form6>
-    <p >"Soy el mas fachero"</p>
-	</form6>
-</footer>
+  
+      </div>
 
-</html>
 
+    </header>
+
+
+    <main>
+      
+        <section class="contenedor" id="servicios">
+        <h2 class="subtitulo">Te ofrecemos</h2> 
+        <div class="contenedor-servicio">
+            <img src="imagenes/servicio al cliente.avif" alt="">
+            <div class="checklist-servicio">
+      
+                <div class="service">
+                  <h3 class="n-service"><span class="number">1</span>CALIDAD </h3>
+                  <p>Nuestros productos son elaborados con materia prima de excelente calidad, pensando en la comodidad y  durabilidad de nuestras prendas   </p>
+                  
+                </div>
+                <div class="service">
+                  <h3 class="n-service"><span class="number">2</span> EXCELENTE SERVICIO</h3>
+                  <p>Es politica de nuestra empresa estar 24 horas al servicio de las solicitudes, inquietudes o quejas de nuestros clientes. 
+                  </p>
+
+                </div>
+                <div class="service">
+                  <h3 class="n-service"><span class="number">3</span>FACILIDADES DE PAGO</h3>
+                  <p>Porque pensamos en todos nuestros clientes , tenemos plan separe, credito sin cuota inicial, para que te lleves eso que tanto quieres.</p>
+
+                </div>
+            </div>
+        
+        </div>
+        </section>
+          <section class="gallery" id="portafolio">
+
+            <div class="contenedor">
+                <h2 class="subtitulo">NUEVOS PRODUCTOS</h2>
+                <div class="contenedor-galeria">
+                    <img src="IMAGENES/chaqueta1.jpg" alt="" class="imagenes-galeria">
+                    <img src="IMAGENES/chaqueta2.jpg" alt="" class="imagenes-galeria">
+                    <img src="IMAGENES/chaqueta 3.jpg" alt="" class="imagenes-galeria">
+                    <img src="IMAGENES/chaqueta7.jpg" alt="" class="imagenes-galeria">
+                    <img src="IMAGENES/chaqueta5.jpg" alt="" class="imagenes-galeria">
+                    <img src="IMAGENES/chaqueta6.jpg" alt="" class="imagenes-galeria">
+                </div>
+            </div>
+
+          </section>
+
+    <div class="contenedor" id="expertos">
+      <h2 class="subtitulo"> SEGURIDAD EN TUS COMPRAS:</h2>
+    <section class="experts">
+    <div class="cont-expert">
+      <img src="imagenes/componline.png" alt="">
+      <h3 class="nexpert">Compra online</h3>
+    
+    </div>  
+  <div class="cont-expert">
+    <img src="imagenes/secur1.png" alt="">
+    <h3 class="nexpert">Datos seguros</h3>
+
+  </div>  
+  <div class="cont-expert">
+    <img src="imagenes/security.svg" alt="">
+    <h3 class="nexpert">transacciones seguras</h3>
+
+  </div>  
+  </section>     
+    </div>
+    </main>
+    <footer id="contacto">
+      <div class="contenedor-footer-content"></div>
+        <div class="contact-us">
+              <h2 class="brand">GRUPO 1 </h2>
+              <h2 class="materializa">Materializa tus sueños</h2>
+        </div>
+        <div class="social-media">
+              <a href="./" class="social-media-icon">
+              <i class='bx bxl-facebook-square'></i>
+              </a>
+
+              <a href="./" class="social-media-icon">
+              <i class='bx bxl-twitter'></i>
+              
+              <a href="./" class="social-media-icon">
+              <i class='bx bxl-whatsapp-square'></i>
+
+              <a href="./" class="social-media-icon">
+              <i class='bx bxl-instagram'></i>
+
+            </a>
+        </div>
+        
+  <div class="line">
+    
+  </div>
+      
+
+    </footer>
+
+
+
+  </body>
+  </html>

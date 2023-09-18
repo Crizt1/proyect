@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Grupo1 Clothing</title>
+	<link rel="stylesheet" href="styles_landing.css">
+	<script src="code_landing.js"></script>
+	</head>
+	<body >
+		<header>
+			<h1 align="center" style="color: black;">  GRUPO 1 CLOTHING  </h1>
+		</header>
+
+		<div class="card" id="Vid">
+			<video width="320" height="240" autoplay muted controls>
+				<source src="img/Vid.mp4" type="video/mp4">
+			</video>
+		</div>
+
+		<div class="btn-a" role="button" id="btn-a2">
+			<a href="/Home/index.html" target="_blank"> Ir a comprar </a>
+		</div>
+		"<!--Botones que utilizan la libreria jquery-->"
+		<div>
+			<button class="button1" id="Button">
+				Esconder Video
+		  	</button>
+		</div>
+		<div>
+			<button class="button2" id="Button2">
+				Mostrar Video
+			</button>
+		</div>
+		<div id="button3">
+			<button3>
+				<a href="About.html" target="_blank"> Conocenos </a>
+			</button3>
+		</div>
+
+			"<!-- El codigo jquery relacionado con los botones-->"
+		  <script src="jquery-3.7.1.min.js"></script>
+		  <script>
+		  $(document).ready(function(){
+
+			$("#Button").click(function(){
+
+				$("#Vid").hide(5000);
+			});
+			$("#Button2").click(function(){
+				$("#Vid").show(5000);
+			});
+
+		});
+			</script>
+			"<!--Termino del codigo jquery-->"
+
+		    <div class="modal_container" id="modal_container2">
+        		<div class="modal">
+            		<h1>¡Has obtenido un 20% de descuento!</h1>
+            		<p>
+                		Valido solo para compras en nuestra próxima tienda física.
+                		Ven a visitarnos próximamente y gana grandes descuentos.
+                		Te hemos enviado toda la información a tu correo.
+            		</p>
+            		<button id="close" class="close2">Cerrar</button>
+       			 </div>
+    		</div>
+
+
+			<form id="form">
+				<h2>¿Quieres que te contactemos?</h2>
+
+				<div class="input-group">
+
+					<label for="name">Nombre</label>
+					<input type="text" name="name" id="name", placeholder="Nombre">
+
+					<label for="Tel">Celular</label>
+					<input type="tel" name="Tel" id="Tel" placeholder="Telefono">
+
+					<label for="email">Correo</label>
+					<input type="email" name="email" id="email" placeholder="Correo">
+
+
+					<div class="form-txt">
+						<a href="#">Politicas de uso</a>
+						<a href="#">Terminos y condiciones</a>
+					</div>
+
+					<input class="button" type="submit" value="Enviar">
+
+				</div>
+			</form>
+
+
+			<!-- Mostrar el formulario -->
+
+			<div tabindex="0" class="mostrar">
+				<svg class="mostrarIcono" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+				<g mask="url(#mask0_21_345)">
+					<path d="M13.75 23.75V16.25H6.25V13.75H13.75V6.25H16.25V13.75H23.75V16.25H16.25V23.75H13.75Z"></path>
+				</g>
+				</svg>
+			</div>
+
+
+		<footer>
+    		<form1>
+    			<p>CALIDAD</p>
+			</form1>
+			<form2>
+    			<p>ECONOMIA</p>
+			</form2>
+			<form3>
+    			<p>RAPIDEZ</p>
+			</form3>
+			<form4>
+				<p>"No tengo dinero y quiero más chaquetas"</p>
+			</form4>
+			<form5>
+				<p >"La ropa mas chimba que me he comprado"</p>
+			</form5>
+			<form6>
+				<p >"Soy el mas fachero"</p>
+			</form6>
+		</footer>
+		<div>
+			<img src="img/omi.jpg" class="img1">
+			<img src="img/emo.jpg" class="img2">
+			<img src="img/ema.jpg" class="img3">
+		</div>
+
+	</body>
+</html>
+

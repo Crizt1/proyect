@@ -1,0 +1,279 @@
+<!doctype html>
+
+<html lang='en'>
+
+
+<head>
+<meta charset='utf-8'>
+<!-- Boxicons CSS -->
+<title>TE LO TRAIGO</title>
+<link rel="stylesheet" href="estil.css">
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+<link rel = "preconnect" href = "https://fonts.gstatic.com">
+<link href = "https://fonts.googleapis.com/css2? family = Open + Sans: wght @ 300; 400; 700 & display = swap "rel =" hoja de estilo ">
+</head>
+
+
+
+<body>
+  <script src="JS/jquery-3.7.1.min.js"></script><!--Enlance a la carpeta donde se descargó la biblioteca jQuery comprimida-->
+   <header class="header" id="inicio">
+    
+    <img src="imagenes/hamburguesa.svg" alt="" class="hamburguer">
+
+    <nav class="menu-navegacion ">
+    <a href="#inicio">HOME</a>
+    <a href="#servicios">NOSOTROS  </a>
+    <a href="#articulos">ARTICULOS</a>
+
+     <a href="#Portafolio">NUEVOS PRODUCTOS</a>
+     <a href="#expertos">SEGURIDAD</a>
+     <a href="#contacto">CONTACTO</a>
+     
+    </nav>
+        
+
+     <div class="contenedor head">
+       <h1 class="titulo"> UNA NUEVA FORMA DE VESTIR </h1>
+
+       <div class="caja-logo" id="logo">
+                    
+        <img class="Logo1" src="In.jpg">
+                    
+       </div>
+ 
+     </div>
+     
+
+
+   </header>
+
+
+  <main>
+     
+      <section class="contenedor" id="servicios">
+       <h2 class="subtitulo">Te ofrecemos</h2> 
+       <div class="contenedor-servicio">
+           <img src="imagenes/servicio al cliente.avif" alt="">
+           <div class="checklist-servicio">
+     
+              <div class="service">
+                <h3 class="n-service"><span class="number">1</span>CALIDAD </h3>
+                <p>Nuestros productos son elaborados con materia prima de excelente calidad, pensando en la comodidad y  durabilidad de nuestras prendas   </p>
+                
+              </div>
+              <div class="service">
+                <h3 class="n-service"><span class="number">2</span> EXCELENTE SERVICIO</h3>
+                <p>Es politica de nuestra empresa estar 24 horas al servicio de las solicitudes, inquietudes o quejas de nuestros clientes. 
+                </p>
+
+              </div>
+              <div class="service">
+                <h3 class="n-service"><span class="number">3</span>FACILIDADES DE PAGO</h3>
+                <p>Porque pensamos en todos nuestros clientes , tenemos plan separe, credito sin cuota inicial, para que te lleves eso que tanto quieres.</p>
+
+              </div>
+           </div>
+      
+      </div>
+      </section>
+         <section class="gallery" id="portafolio">
+
+           <div class="contenedor">
+              <h2 class="subtitulo">NUEVOS PRODUCTOS</h2>
+              <div class="contenedor-galeria">
+                <img src="IMAGENES/chaqueta1.jpg" alt="" class="imagenes-galeria" >
+                <img src="IMAGENES/chaqueta2.jpg" alt="" class="imagenes-galeria" >
+               <img  src="IMAGENES/chaqueta3.jpg" alt="" class="imagenes-galeria" >
+              <img src="IMAGENES/chaqueta7.jpg" alt="" class="imagenes-galeria">
+              <img src="IMAGENES/chaqueta5.jpg" alt="" class="imagenes-galeria">
+              <img src="IMAGENES/chaqueta6.jpg" alt="" class="imagenes-galeria">
+           </div>
+          </div>
+          <button class="botonComprar" id="button1">COMPRAR</button>   
+          <button class="botonComprar" id="button2">COMPRAR</button>  
+          <button class="botonComprar" id="button3">COMPRAR</button>
+          <button class="botonComprar" id="button4">COMPRAR</button>
+          <button class="botonComprar" id="button5">COMPRAR</button>
+          <button class="botonComprar" id="button6">COMPRAR</button>
+        </section>
+<section class="imagen-ligth">
+  <img src="IMAGENES/close.svg" alt="" class="close">
+</section>
+  <div class="contenedor" id="expertos">
+    <h2 class="subtitulo"> SEGURIDAD EN TUS COMPRAS:</h2>
+  <section class="experts">
+   <div class="cont-expert">
+     <img src="imagenes/componline.png" alt="">
+     <h3 class="nexpert">Compra online</h3>
+  
+   </div>  
+   <div class="cont-expert">
+    <img src="imagenes/secur1.png" alt="">
+    <h3 class="nexpert">Datos seguros</h3>
+
+  </div>  
+<div class="cont-expert">
+  <img src="imagenes/security.svg" alt="">
+  <h3 class="nexpert">transacciones seguras</h3>
+
+</div>  
+</section>     
+  </div>
+  </main>
+  <footer id="contacto">
+    <div class="contenedor-footer-content"></div>
+       <div class="contact-us">
+            <h2 class="brand">GRUPO 1 </h2>
+            <h2 class="materializa">Materializa tus sueños</h2>
+       </div>
+       <div class="social-media">
+            <a href="./" class="social-media-icon">
+            <i class='bx bxl-facebook-square'></i>
+            </a>
+
+            <a href="./" class="social-media-icon">
+            <i class='bx bxl-twitter'></i>
+            
+            <a href="./" class="social-media-icon">
+            <i class='bx bxl-whatsapp-square'></i>
+
+            <a href="./" class="social-media-icon">
+            <i class='bx bxl-instagram'></i>
+
+          </a>
+       </div>
+       
+<div class="line">
+  
+</div>
+    
+
+   </footer>
+
+  <script src="JS/menu.js"></script>
+  <script src="JS/light-box.js"></script>
+   <button id="botonComprar"></button>
+
+   <!--Uso de jQuery en el sprint: -->
+   <script>
+    //Botones modificados con jQuery, su color y texto, se emplearon los eventos de click, mouse hover, mouve leave
+      $(function(){
+        var textoNormal = "COMPRAR";
+        var textoHover1 = "99900";
+        var textoHover2 = "84900";
+        var textoHover3 = "89900"; 
+        var textoHover4 = "87900";
+        var textoHover5 = "86900"; 
+        var textoHover6 = "85900";  
+        var after = "COMPRADO";
+        
+        $("#button1").click(function (event){
+          $("#button1").css("background-color","gray");
+          $("#button1").text(after);
+          });
+        
+
+        $("#button2").click(function (event){
+          $("#button2").css("background-color","blue");
+          $("#button2").text(after);
+          });
+       
+
+       
+        $("#button3").click(function (event){
+          $("#button3").css("background-color","red");
+          $("#button3").text(after);
+          });
+        
+          $("#button4").click(function (event){
+          $("#button4").css("background-color","blue");
+          $("#button4").text(after);
+          });
+
+          $("#button5").click(function (event){
+          $("#button5").css("background-color","red");
+          $("#button5").text(after);
+          });
+
+          $("#button6").click(function (event){
+          $("#button6").css("background-color","green");
+          $("#button6").text(after);
+          });
+          $("#button1").mouseenter(function(){
+            $("#button1").text(textoHover1);
+            $("#button1").css("background-color","yellow");
+          })
+
+          $("#button1").mouseleave(function(){
+            $("#button1").text(textoNormal);
+          })
+
+          $("#button2").mouseenter(function(){
+            $("#button2").text(textoHover2);
+            $("#button2").css("background-color","yellow");
+          })
+
+          $("#button2").mouseleave(function(){
+            $("#button2").text(textoNormal);
+          })
+
+          $("#button3").mouseenter(function(){
+            $("#button3").text(textoHover3);
+            $("#button3").css("background-color","yellow");
+          })
+
+          $("#button3").mouseleave(function(){
+            $("#button3").text(textoNormal);
+          })
+          
+          
+          $("#button4").mouseenter(function(){
+            $("#button4").text(textoHover4);
+            $("#button4").css("background-color","yellow");
+          })
+
+          $("#button4").mouseleave(function(){
+            $("#button4").text(textoNormal);
+          })
+
+          
+          $("#button5").mouseenter(function(){
+            $("#button5").text(textoHover5);
+            $("#button5").css("background-color","yellow");
+          })
+
+          $("#button5").mouseleave(function(){
+            $("#button5").text(textoNormal);
+          })
+
+          
+          $("#button6").mouseenter(function(){
+            $("#button6").text(textoHover6);
+            $("#button6").css("background-color","yellow");
+          })
+
+          $("#button6").mouseleave(function(){
+            $("#button6").text(textoNormal);
+          })
+
+          //Rotación al logo de la compañía
+          var logo = $("#logo");
+
+          function rotarLogo(){
+          logo.animate(
+            {rotation: 360},
+            {
+              duration: 2000,
+              step: function(now, f){
+                logo.css("transform","rotate("+now+"deg)");
+              }
+            }
+      );
+          }
+          setInterval(rotarLogo, 3000);
+        });
+</script>
+
+</body>
+</html>

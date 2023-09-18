@@ -1,0 +1,9 @@
+	.Logo1{
+		height: 70px;
+		position: absolute;top:15px; left:50px ;
+
+	}
+
+
+
+	<img class="Logo1" src="In.jpg">

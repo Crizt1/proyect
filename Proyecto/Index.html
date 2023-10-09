@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grupo1 Clothing</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+
+    <div class="nav">
+      <div class="tituloo">
+        <h1 id="tituloo">GRUPO 1 CLOTHING</h1>
+      </div>
+      <!-- Bootstrap -->
+      <button class="bt1" ><a href="About.html" target="_blank">Contactanos</a></button>
+      <button class="bt1"><a href="https://tutiendafavoritaonlinegrupo1.on.drv.tw/Home/" target="_blank">Compras</a></button>
+      <button class="bt1" id="mostrar">Formulario</button>
+ </div>
+
+    <div class="contenedor-video" >
+      <div class="frasee">
+      <h2>"Viste el éxito con estilo. Entra y descubre nuestras chaquetas diseñadas para inspirarte y brindarte la confianza necesaria para conquistar tus metas con determinación y elegancia."</h2>
+      </div>
+      <video class="vvideo" width="470" height="330" autoplay muted controls  >
+        <source src="img/Vid.mp4"  type="video/mp4"  />
+      </video>
+    </div>
+
+
+
+    <!-- El codigo jquery -->
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#Button").click(function () {
+          $("#Vid").hide(5000);
+        });
+        $("#Button2").click(function () {
+          $("#Vid").show(5000);
+        });
+      });
+      function abrirWhatsApap() {
+
+        var nombre = document.getElementById('name').value;
+        var nombre = $('#name').val();
+        var celular = $('#Tel').val();
+        var correo = $('#email').val();
+
+
+        var mensaje = "Nombre: " + nombre + "\nCelular: " + celular + "\nCorreo: " + correo;
+
+        // Mostrar una alerta con los datos
+        alert(mensaje);
+
+        var urlWhatsapp = "https://api.whatsapp.com/send?phone=3219853734&text=" + mensaje;
+
+        // Abrir Whatsapp en una nueva pestaña.
+         window.open(urlWhatsapp);
+      }
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        abrirWhatsApp();
+      });
+
+
+    </script>
+    <!--Termino del codigo jquery-->
+
+    <div class="modal_container" id="modal_container2">
+      <div class="modal">
+        <h1>¡Has obtenido un 20% de descuento!</h1>
+        <p>
+          Valido solo para compras en nuestra próxima tienda física. Ven a
+          visitarnos próximamente y gana grandes descuentos. Te hemos enviado
+          toda la información a tu correo.
+        </p>
+        <button id="close" class="close2">Cerrar</button>
+      </div>
+    </div>
+
+    <form id="form">
+      <h2 id="cont">¿Quieres que te contactemos?</h2>
+
+      <div class="input-group">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" , placeholder="Nombre" />
+
+        <label for="Tel">Celular</label>
+        <input type="tel" name="Tel" id="Tel" placeholder="Telefono" />
+
+        <label for="email">Correo</label>
+        <input type="email" name="email" id="email" placeholder="Correo" />
+
+        <div class="form-txt">
+          <a href="#">Politicas de uso</a>
+          <a href="#">Terminos y condiciones</a>
+        </div>
+        <input class="button" type="submit" onclick="abrirWhatsApap()" value="Abrir WhatsApp" /></div>
+    </form>
+
+
+
+
+    <footer class="footeer">
+      <div class="FORM1">
+        <p>CALIDAD</p>
+      </div>
+      <div class="FORM1">
+        <p>ECONOMIA</p>
+      </div>
+      <div class="FORM1">
+        <p>RAPIDEZ</p>
+      </div>
+      <div class="FORM1">
+        <p>"No tengo dinero y quiero más chaquetas"</p>
+      </div>
+      <div class="FORM1">
+        <p>"La ropa mas chimba que me he comprado"</p>
+      </div>
+      <div class="FORM1">
+        <p>"Soy el mas fachero"</p>
+      </div>
+    </footer>
+    <!-- <div>
+      <img src="img/omi.jpg" class="img1" />
+      <img src="img/emo.jpg" class="img2" />
+      <img src="img/ema.jpg" class="img3" />
+
+    </div> -->
+    <script src="code_landing.js"></script>
+  </body>
+</html>

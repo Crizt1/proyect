@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "65400c6682f0a65ad475e0d9"
+  },
+  "avatar": "https://www.pinterest.com.mx/al813412/mongoose/",
+  "name": "Cristian",
+  "email": "kris@hotmail.com",
+  "createdAt": {
+    "$date": "2023-10-30T20:04:54.513Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-30T20:04:54.513Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65400d40480b5162c8862380"
+  },
+  "avatar": "https://www.pinterest.com.mx/al813412/mongoose/",
+  "name": "Anita",
+  "email": "anis@hotmail.com",
+  "createdAt": {
+    "$date": "2023-10-30T20:08:32.248Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-30T20:08:32.248Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65400db1bf4f8b0ac8bb0bde"
+  },
+  "avatar": "https://www.pinterest.com.mx/al813412/mongoose/",
+  "name": "Pablito",
+  "email": "pablis@hotmail.com",
+  "createdAt": {
+    "$date": "2023-10-30T20:10:25.682Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-30T20:10:25.682Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65400e3d77565634647982fd"
+  },
+  "avatar": "https://www.pinterest.com.mx/al813412/mongoose/",
+  "name": "Orlando",
+  "email": "orly@hotmail.com",
+  "createdAt": {
+    "$date": "2023-10-30T20:12:45.146Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-30T20:12:45.146Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65400ec28c97b10d809e7c1b"
+  },
+  "avatar": "https://www.pinterest.com.mx/al813412/mongoose/",
+  "name": "Zady",
+  "email": "zady@hotmail.com",
+  "createdAt": {
+    "$date": "2023-10-30T20:14:58.800Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-30T20:14:58.800Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65400f75dd74df619476a450"
+  },
+  "avatar": "https://www.pinterest.com.mx/al813412/mongoose/",
+  "name": "Fernando",
+  "email": "fercho@hotmail.com",
+  "createdAt": {
+    "$date": "2023-10-30T20:17:57.240Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-30T20:17:57.240Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65400fdfe62f5763506f38db"
+  },
+  "avatar": "https://www.pinterest.com.mx/al813412/mongoose/",
+  "name": "Fernanda",
+  "email": "fercho@hatmail.com",
+  "createdAt": {
+    "$date": "2023-10-30T20:19:43.849Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-30T20:19:43.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6540109bbf2ac95d4cbbf5ba"
+  },
+  "avatar": "https://www.pinterest.com.mx/al813412/mongoose/",
+  "name": "Andrea",
+  "email": "andris@hatmail.com",
+  "createdAt": {
+    "$date": "2023-10-30T20:22:51.376Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-30T20:22:51.376Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65401230ef488703a86d941a"
+  },
+  "avatar": "https://www.pinterest.com.mx/al813412/mongoose/",
+  "name": "Algemiro",
+  "email": "alg@hatmail.com",
+  "createdAt": {
+    "$date": "2023-10-30T20:29:36.473Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-30T20:29:36.473Z"
+  }
+}]

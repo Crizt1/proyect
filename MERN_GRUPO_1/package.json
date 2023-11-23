@@ -1,0 +1,25 @@
+{
+  "name": "mern_psw_2023-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon backend/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "create": "^0.0.2",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "mongoose": "^8.0.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}

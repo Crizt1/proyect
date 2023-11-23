@@ -1,0 +1,374 @@
+<!doctype html>
+
+<html lang='en'>
+
+
+<head>
+<meta charset='utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Boxicons CSS -->
+<title>TE LO TRAIGO</title>
+<link rel="stylesheet" href="estil.css">
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+<link rel = "preconnect" href = "https://fonts.gstatic.com">
+<link href = "https://fonts.googleapis.com/css2? family = Open + Sans: wght @ 300; 400; 700 & display = swap "rel =" hoja de estilo ">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+
+
+<body>
+  <script src="JS/jquery-3.7.1.min.js"></script>
+  <script src="JS/carrito.js"></script>
+   <header class="header" id="inicio">
+    
+    <img src="imagenes/hamburguesa.svg" alt="" class="hamburguer">
+
+    <nav class="menu-navegacion ">
+    <a href="#inicio">HOME</a>
+    <a href="#servicios">NOSOTROS  </a>
+    <a href="#articulos">ARTICULOS</a>
+
+     <a href="#Portafolio">NUEVOS PRODUCTOS</a>
+     <a href="#expertos">SEGURIDAD</a>
+     <a href="#contacto">CONTACTO</a>
+      <a href="#CarroCompras">CARRO COMPRAS</a>
+
+     
+    </nav>
+        
+
+     <div class="contenedor head">
+       <h1 class="titulo"> UNA NUEVA FORMA DE VESTIR </h1>
+
+       <div class="caja-logo" id="logo">
+        <a href="index.html">
+          <img class="logo1" src="logodf.png">
+        </a> 
+        
+                    
+       </div>
+ 
+     </div>
+     
+
+
+   </header>
+
+
+  <main>
+     
+      <section class="contenedor" id="servicios">
+       <h2 class="subtitulo">Te ofrecemos</h2> 
+       <div class="contenedor-servicio">
+           <img src="imagenes/servicio al cliente.avif" alt="">
+           <div class="checklist-servicio">
+     
+              <div class="service">
+                <h3 class="n-service"><span class="number">1</span>CALIDAD </h3>
+                <p>Nuestros productos son elaborados con materia prima de excelente calidad, pensando en la comodidad y  durabilidad de nuestras prendas   </p>
+                
+              </div>
+              <div class="service">
+                <h3 class="n-service"><span class="number">2</span> EXCELENTE SERVICIO</h3>
+                <p>Es politica de nuestra empresa estar 24 horas al servicio de las solicitudes, inquietudes o quejas de nuestros clientes. 
+                </p>
+
+              </div>
+              <div class="service">
+                <h3 class="n-service"><span class="number">3</span>FACILIDADES DE PAGO</h3>
+                <p>Porque pensamos en todos nuestros clientes , tenemos plan separe, credito sin cuota inicial, para que te lleves eso que tanto quieres.</p>
+
+              </div>
+           </div>
+      
+        </div>
+      </section>
+
+         <section class="gallery" id="portafolio">
+          
+           <div class="contenedor">
+              <h2 class="subtitulo">NUEVOS PRODUCTOS</h2>
+              
+              <div class="d-flex contenedor-galeria" id="productos">
+              
+              <div class="card-prod d-flex flex-column justify-content-between">
+              <div class="producto" data-precio="69900">
+                <img src="IMAGENES/chaqueta1.jpg" class="img-fluid imagenes-galeria producto"  data-target="#modal1">
+                <p style="font-family: 'Montserrat', sans-serif; text-align: center;" class="product-title">CHAQUETA NEGRA CORTAVIENTOS</p>
+              </div>
+                <div>
+                  <button type="button" class="carro btn btn-dark active btn-reserva rounded-pill" data-bs-toggle="button" aria-pressed="true" id="agregarCarrito"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+                </div>
+              
+              </div>
+              
+              <div class="card-prod d-flex flex-column justify-content-between">
+                <div class="producto" data-precio="69900" data-imagen="IMAGENES/chaqueta2.jpg">
+                <img src="IMAGENES/chaqueta2.jpg" class="img-fluid imagenes-galeria" data-target="#modal2">
+                <p style="font-family: 'Montserrat', sans-serif; text-align: center;" class="product-title">CHAQUETA AZUL CIELO CORTAVIENTOS</p>
+              </div>
+              <div>
+                <button type="button" class="carro1 btn btn-dark active btn-reserva rounded-pill" data-bs-toggle="button" aria-pressed="true" id="agregarCarrito"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+              </div>
+              </div>
+
+              <div class="card-prod d-flex flex-column justify-content-between">
+                <div class="producto" data-precio="69900" data-imagen="IMAGENES/chaqueta3.jpg">
+                <img  src="IMAGENES/chaqueta3.jpg" class="img-fluid imagenes-galeria" data-target="#modal3">
+                <p style="font-family: 'Montserrat', sans-serif; text-align: center;" class="product-title">CHAQUETA VINO TINTO CORTAVIENTOS</p>
+              </div>
+              <div>
+                <button type="button" class="carro2 btn btn-dark active btn-reserva rounded-pill" data-bs-toggle="button" aria-pressed="true" id="agregarCarrito"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+              </div>
+              </div>
+
+              
+
+              <div class="card-prod d-flex flex-column justify-content-between ">
+              <div class="producto"  data-precio="69900" data-imagen="IMAGENES/chaqueta7.jpg">
+                <img src="IMAGENES/chaqueta7.jpg" class="img-fluid imagenes-galeria" data-target="#modal6">
+                <p style="font-family: 'Montserrat', sans-serif; text-align: center;" class="product-title">CHAQUETA AZUL OSCURO CORTAVIENTOS</p>
+              </div>
+              <div>
+                <button type="button" class="carro3 btn btn-dark active btn-reserva rounded-pill" data-bs-toggle="button" aria-pressed="true" id="agregarCarrito"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+              </div>
+            </div>
+            
+              <div class="card-prod d-flex flex-column justify-content-between">
+                <div class="producto"  data-precio="69900" data-imagn="IMAGENES/chaqueta5.jpg">
+                <img src="IMAGENES/chaqueta5.jpg" class="img-fluid imagenes-galeria" data-target="#modal4">
+                <p style="font-family: 'Montserrat', sans-serif; text-align: center;" class="product-title">CHAQUETA VINO TINTO CORTAVIENTOS</p>
+              </div>
+              <div>
+                <button type="button" class="carro4 btn btn-dark active btn-reserva rounded-pill" data-bs-toggle="button" aria-pressed="true" id="agregarCarrito"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+              </div>
+            </div>
+
+              <div class="card-prod d-flex flex-column justify-content-between">
+                <div class="producto"  data-precio="69900" data-imagen="IMAGENES/chaqueta6.jpg">
+                <img src="IMAGENES/chaqueta6.jpg" class="img-fluid imagenes-galeria" data-target="#modal5">
+                <p style="font-family: 'Montserrat', sans-serif; text-align: center;" class="product-title">CHAQUETA VERDE MILITAR CORTAVIENTOS</p>
+              </div>
+              <div>
+                <button type="button" class="carro5 btn btn-dark active btn-reserva rounded-pill" data-bs-toggle="modal" aria-pressed="true" id="agregarCarrito"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+              </div>
+            </div>
+            </div>
+              
+            </div>
+         
+        
+          <!--ventanas modales datos productos-->
+          
+          <section class="modales" id="modal1">
+              <div class="modales1-content">
+                <h3 style="font-family: 'Montserrat', sans-serif;">CHAQUETA NEGRA CORTAVIENTOS</h3>
+                <img src="IMAGENES/chaqueta1.jpg" alt="imagen1" class="modal_img">
+                <h3 class="modal_title fs-5" id="exampleModalLabel"><span style="color: gray;"><del>$99.900</del></span> <span style="color: red;">$69.900</span></h3>
+                 <a href="#" class="modal_close" id="modal1">x</a>
+                 <a href="#" class="modal_comprar" id="modal_comprar1">Comprar ahora</a>
+                </div>
+            </section>
+
+          <section class="modales" id="modal2">
+            <div class="modales1-content">
+              <h3 style="font-family: 'Montserrat', sans-serif;">CHAQUETA AZUL CIELO CORTAVIENTOS</h3>
+              <img src="IMAGENES/chaqueta2.jpg" alt="imagen2" class="modal_img">
+              <h3 class="modal_title fs-5" id="exampleModalLabel"><span style="color: gray;"><del>$84.900</del></span> <span style="color: red;">$59.900</span></h3>
+               <a href="#" class="modal_close" id="modal2">x</a>
+               <a href="#" class="modal_comprar" id="modal_comprar2">Comprar ahora</a>
+              </div>
+          </section>
+
+          <section class="modales" id="modal3">
+            <div class="modales1-content">
+              <h3 style="font-family: 'Montserrat', sans-serif;">CHAQUETA VINO TINTO CORTAVIENTOS</h3>
+              <img src="IMAGENES/chaqueta3.jpg" alt="imagen3" class="modal_img">
+              <h3 class="modal_title fs-5" id="exampleModalLabel"><span style="color: gray;"><del>$89.900</del></span> <span style="color: red;">$59.900</span></h3>
+               <a href="#" class="modal_close" id="modal3">x</a>
+               <a href="#" class="modal_comprar" id="modal_comprar3">Comprar ahora</a>
+              </div>
+        </section>
+
+        <section class="modales" id="modal4">
+          <div class="modales1-content">
+            <h3 style="font-family: 'Montserrat', sans-serif;">CHAQUETA VINO TINTO CORTAVIENTOS</h3>
+            <img src="IMAGENES/chaqueta5.jpg" alt="imagen5" class="modal_img">
+              <h3 class="modal_title fs-5" id="exampleModalLabel"><span style="color: gray;"><del>$87.900</del></span> <span style="color: red;">$59.900</span></h3>
+             <a href="#" class="modal_close" id="modal4">x</a>
+             <a href="#" class="modal_comprar" id="modal_comprar4">Comprar ahora</a>
+            </div>
+      </section>
+
+      <section class="modales" id="modal5">
+        <div class="modales1-content">
+          <h3 style="font-family: 'Montserrat', sans-serif;">CHAQUETA VERDE MILITAR CORTAVIENTOS</h3>
+          <img src="IMAGENES/chaqueta6.jpg" alt="imagen6" class="modal_img">
+          <h3 class="modal_title fs-5" id="exampleModalLabel"><span style="color: gray;"><del>$85.900</del></span> <span style="color: red;">$59.900</span></h3>
+           <a href="#" class="modal_close" id="modal5">x</a>
+           <a href="#" class="modal_comprar" id="modal_comprar5">Comprar ahora</a>
+          </div>
+    </section>
+
+    <section class="modales" id="modal6">
+      <div class="modales1-content">
+        <h3 style="font-family: 'Montserrat', sans-serif;">CHAQUETA AZUL OSCURO CORTAVIENTOS</h3>
+        <img src="IMAGENES/chaqueta7.jpg" alt="imagen7" class="modal_img">
+        <h3 class="modal_title fs-5" id="exampleModalLabel"><span style="color: gray;"><del>$85.900</del></span> <span style="color: red;">$59.900</span></h3>
+         <a href="#" class="modal_close" id="modal6">x</a>
+         <a href="#" class="modal_comprar" id="modal_comprar6">Comprar ahora</a>
+        </div>
+  </section>
+</section>
+
+
+<!--añadir al carro <modales-->
+
+
+<section class="modals" id="#modals">
+  <div class="modales-content">
+    <h1 class="Seleccione">AGREGAR AL CARRO</h3>
+      ESCOJE TU TALLA: <select id="select">
+        <option value="1">--Seleccione talla--</option>
+        <option value="2">S</option>
+        <option value="3">M</option>
+        <option value="4">L</option>
+        <option value="5">XL</option>
+        <option value="6">XXL</option>
+      </select>
+
+      <a href="#" class="cerrar">Cerrar</a>
+</section>
+
+
+ 
+<section class="imagen-ligth">
+  <img src="IMAGENES/close.svg" alt="" class="close">
+</section>
+  <div class="contenedor" id="expertos">
+    <h2 class="subtitulo"> SEGURIDAD EN TUS COMPRAS:</h2>
+  <section class="experts">
+   <div class="cont-expert">
+     <img src="imagenes/componline.png" alt="">
+     <h3 class="nexpert">Compra online</h3>
+  
+   </div>  
+   <div class="cont-expert">
+    <img src="imagenes/secur1.png" alt="">
+    <h3 class="nexpert">Datos seguros</h3>
+
+  </div>  
+<div class="cont-expert">
+  <img src="imagenes/security.svg" alt="">
+  <h3 class="nexpert">transacciones seguras</h3>
+
+</div>  
+</section>     
+  </div>
+  </main>
+  <footer id="contacto">
+    <div class="contenedor-footer-content"></div>
+       <div class="contact-us">
+            <h2 class="brand">GRUPO 1 </h2>
+            <h2 class="materializa">Materializa tus sueños</h2>
+       </div>
+       <div class="social-media">
+            <a href="./" class="social-media-icon">
+            <i class='bx bxl-facebook-square'></i>
+            </a>
+
+            <a href="./" class="social-media-icon">
+            <i class='bx bxl-twitter'></i>
+            
+            <a href="./" class="social-media-icon">
+            <i class='bx bxl-whatsapp-square'></i>
+
+            <a href="./" class="social-media-icon">
+            <i class='bx bxl-instagram'></i>
+
+          </a>
+       </div>
+       
+<div class="line">
+  
+</div>
+    
+
+   </footer>
+
+  <script src="JS/menu.js"></script>
+  <script src="JS/light-box.js"></script>
+  <script src="JS/efectolupa.js"></script>
+
+
+<!--eventos click con jquery-->
+   <script>      
+      $(function(){
+        $("#modal_comprar1").click(function (event){
+          $("#modal_comprar1").css("background-color","black");
+          $("#modal_comprar1").text("¡COMPRADO!").css("color","white");
+          });
+     
+
+        
+
+          $("#modal_comprar2").click(function (event){
+          $("#modal_comprar2").css("background-color","blue");
+          $("#modal_comprar2").text("¡COMPRADO!").css("color","white");
+          });
+
+
+          $("#modal_comprar3").click(function (event){
+          $("#modal_comprar3").css("background-color","red");
+          $("#modal_comprar3").text("¡COMPRADO!").css("color","white");
+          });
+
+          $("#modal_comprar4").click(function (event){
+          $("#modal_comprar4").css("background-color","red");
+          $("#modal_comprar4").text("¡COMPRADO!").css("color","white");
+          });
+
+          $("#modal_comprar5").click(function (event){
+          $("#modal_comprar5").css("background-color","green");
+          $("#modal_comprar5").text("¡COMPRADO!").css("color","white");
+          });
+
+          $("#modal_comprar6").click(function (event){
+          $("#modal_comprar6").css("background-color","blue");
+          $("#modal_comprar6").text("¡COMPRADO!").css("color","white");
+          });
+
+        });
+function agregarAlCarrito() {
+  // Obtiene la información de los productos
+  var productos = document.querySelectorAll(".producto");
+  var productosArray = [];
+  for (var i = 0; i < productos.length; i++){
+  var producto = {};
+  producto.foto = productos[i].querySelector("img").src;
+  producto.nombre = productos[i].querySelector("p").textContent;
+  producto.precio = parseFloat(productos[i].dataset.precio);
+  productosArray.push(producto);
+  }
+
+//Redirige a la página de carrito
+localStorage.setItem('productosArray', JSON.stringify(productosArray));
+//window.location.href = "cart.html?producto="+JSON.stringify(productosArray);
+//Almacena el producto en localStorage
+/*const itemCarrito = {foto, nombre, precio };
+let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+carrito.push(itemCarrito);
+localStorage.setItem('carrito', JSON.stringify(carrito));*/
+
+}
+document.querySelector("#agregarCarrito").addEventListener("click", agregarAlCarrito);
+console.log(producto.nombre);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

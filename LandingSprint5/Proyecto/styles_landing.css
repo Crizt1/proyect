@@ -1,0 +1,78 @@
+
+body{
+background-color: black;
+}
+
+header{
+    background-color: whitesmoke;
+    width: 50%;
+    margin-left: 340px;
+    margin-right: auto;
+
+}
+
+{
+  display: none;
+}
+.close2{
+    background-color: rgb(15, 15, 14);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(247, 242, 242);
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px ;
+    cursor: pointer;
+}
+
+.close2:hover{
+    background-color: #50E04B;
+}
+
+.modal_container{
+    display: flex;
+    background-color: rgba(34, 34, 31, 0.479);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity .6s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+.show{
+    pointer-events: auto;
+    opacity: 3;
+    transition: opacity 1s;
+    --transform: translateY(0);
+}
+
+.modal{
+    background-color: whitesmoke;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transform: var(--transform);
+    transition: var(--transition);
+}
+
+.modal h1{
+    margin: 0;
+
+}
+
+.modal p{
+    opacity: 0.7;
+    font-size: 14px;
+}
+/* El CSS de los botones que utilizan la libreria jquery*/
+

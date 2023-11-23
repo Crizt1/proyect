@@ -1,8 +1,5 @@
 {
   "$schema": "https://railway.app/railway.schema.json",
-  "installCommand": [
-    "nix-shell --run 'npm install'"
-  ],
   "build": {
     "builder": "NIXPACKS"
   },
